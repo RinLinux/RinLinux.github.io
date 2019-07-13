@@ -5,9 +5,93 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 13 Jul 2019 16:28:35 +0800</pubDate>
-    <lastBuildDate>Sat, 13 Jul 2019 16:28:35 +0800</lastBuildDate>
+    <pubDate>Sat, 13 Jul 2019 18:02:32 +0800</pubDate>
+    <lastBuildDate>Sat, 13 Jul 2019 18:02:32 +0800</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Mysql忘记密码</title>
+        <description>&lt;h2 id=&quot;mysql&quot;&gt;Mysql&lt;/h2&gt;
+
+ubuntu系统下mysql重置密码和修改密码操作
+
+</description>
+        <pubDate>Sat, 13 Jul 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/07/13/mysql%E5%BF%98%E8%AE%B0%E5%AF%86%E7%A0%81/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/07/13/mysql%E5%BF%98%E8%AE%B0%E5%AF%86%E7%A0%81/</guid>
+        
+        <category>mysql</category>
+        
+        <category>密码</category>
+        
+        
+        <category>软件工具</category>
+        
+      </item>
+    
+      <item>
+        <title>统计分析：描述性统计</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#统计学基础概念&quot; id=&quot;markdown-toc-统计学基础概念&quot;&gt;统计学基础概念&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#表格图形方法&quot; id=&quot;markdown-toc-表格图形方法&quot;&gt;表格图形方法&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#总结&quot; id=&quot;markdown-toc-总结&quot;&gt;总结&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;统计学基础概念&quot;&gt;统计学基础概念&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;本质&lt;/li&gt;
+  &lt;li&gt;数据&lt;/li&gt;
+  &lt;li&gt;描述性统计&lt;/li&gt;
+  &lt;li&gt;统计推断&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;表格图形方法&quot;&gt;表格图形方法&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;单变量&lt;/li&gt;
+  &lt;li&gt;双变量&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;总结&quot;&gt;总结&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    数据分布
+
+    &lt;img src=&quot;/assets/images/数据科学知识图谱.png&quot; alt=&quot;&quot; /&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 13 Jul 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/07/13/%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90-%E6%8F%8F%E8%BF%B0%E6%80%A7%E7%BB%9F%E8%AE%A1/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/07/13/%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90-%E6%8F%8F%E8%BF%B0%E6%80%A7%E7%BB%9F%E8%AE%A1/</guid>
+        
+        <category>统计</category>
+        
+        
+        <category>数据科学</category>
+        
+      </item>
+    
+      <item>
+        <title>同步github fork</title>
+        <description>
+fork 了别人的仓库后，原作者又更新了仓库，如何将自己的代码和原仓库保持一致？本文将给你解答。
+
+</description>
+        <pubDate>Sat, 13 Jul 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/07/13/%E5%90%8C%E6%AD%A5fork/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/07/13/%E5%90%8C%E6%AD%A5fork/</guid>
+        
+        <category>git</category>
+        
+        <category>fork</category>
+        
+        
+        <category>软件工具</category>
+        
+      </item>
     
       <item>
         <title>推荐系统</title>
@@ -26,239 +110,12 @@
         <link>http://localhost:4000/2019/07/12/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/</link>
         <guid isPermaLink="true">http://localhost:4000/2019/07/12/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/</guid>
         
-        <category>python</category>
+        <category>Python</category>
         
         <category>推荐系统</category>
         
         
-        <category>编程</category>
-        
-      </item>
-    
-      <item>
-        <title>JavaScript 中的 this</title>
-        <description>
-本文为慕课网 &lt;a href=&quot;http://www.imooc.com/learn/277&quot;&gt;JavaScript深入浅出&lt;/a&gt; JavaScript 中的 this笔记。
-
-</description>
-        <pubDate>Fri, 12 Jun 2015 22:06:05 +0800</pubDate>
-        <link>http://localhost:4000/2015/06/12/JavaScript-this/</link>
-        <guid isPermaLink="true">http://localhost:4000/2015/06/12/JavaScript-this/</guid>
-        
-        <category>JavaScript</category>
-        
-        <category>慕课网</category>
-        
-        <category>this</category>
-        
-        <category>ife</category>
-        
-        
-        <category>JavaScript</category>
-        
-      </item>
-    
-      <item>
-        <title>JavaScript 函数</title>
-        <description>
-本文为慕课网 &lt;a href=&quot;http://www.imooc.com/learn/277&quot;&gt;JavaScript深入浅出&lt;/a&gt; JavaScript 函数笔记。
-
-</description>
-        <pubDate>Thu, 11 Jun 2015 22:06:05 +0800</pubDate>
-        <link>http://localhost:4000/2015/06/11/JavaScript-function/</link>
-        <guid isPermaLink="true">http://localhost:4000/2015/06/11/JavaScript-function/</guid>
-        
-        <category>JavaScript</category>
-        
-        <category>函数</category>
-        
-        <category>慕课网</category>
-        
-        <category>ife</category>
-        
-        
-        <category>JavaScript</category>
-        
-      </item>
-    
-      <item>
-        <title>联想服务前端实习面试经历</title>
-        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#宣讲会初试&quot; id=&quot;markdown-toc-宣讲会初试&quot;&gt;宣讲会&amp;amp;初试&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;宣讲会初试&quot;&gt;宣讲会&amp;amp;初试&lt;/h2&gt;
-
-现在想想也真是无心插柳的一次找实习。感觉不知不觉中自己真的进步了不少。
-
-首先在我们机房的楼下看到了宣传海报，5.28 有一个联想服务的宣讲会，我看到有前端工程师的岗位，想试试自己的水平如何，就去听了宣讲会。
-
-到了宣讲会现场，人不少，我坐在最后一排。开始就是一些介绍。包括 Future Leader 的介绍等。
-
-</description>
-        <pubDate>Mon, 01 Jun 2015 22:06:05 +0800</pubDate>
-        <link>http://localhost:4000/2015/06/01/lenovo-front-end-interview/</link>
-        <guid isPermaLink="true">http://localhost:4000/2015/06/01/lenovo-front-end-interview/</guid>
-        
-        <category>面试</category>
-        
-        <category>Lenovo</category>
-        
-        <category>实习</category>
-        
-        <category>JavaScript</category>
-        
-        
-        <category>Interview</category>
-        
-      </item>
-    
-      <item>
-        <title>JavaScript 作用域和作用域链</title>
-        <description>JavaScript 作用域和作用域链学习笔记。</description>
-        <pubDate>Wed, 20 May 2015 22:06:05 +0800</pubDate>
-        <link>http://localhost:4000/2015/05/20/scope/</link>
-        <guid isPermaLink="true">http://localhost:4000/2015/05/20/scope/</guid>
-        
-        <category>JavaScript</category>
-        
-        <category>作用域</category>
-        
-        <category>慕课网</category>
-        
-        <category>ife</category>
-        
-        
-        <category>JavaScript</category>
-        
-      </item>
-    
-      <item>
-        <title>前端的一些资料和工具</title>
-        <description>记录一些好用的前端工具和框架。</description>
-        <pubDate>Mon, 18 May 2015 22:06:05 +0800</pubDate>
-        <link>http://localhost:4000/2015/05/18/front-end-tools/</link>
-        <guid isPermaLink="true">http://localhost:4000/2015/05/18/front-end-tools/</guid>
-        
-        <category>tools</category>
-        
-        <category>CSS</category>
-        
-        <category>reveal</category>
-        
-        <category>配色</category>
-        
-        
-        <category>Tools</category>
-        
-      </item>
-    
-      <item>
-        <title>百度Web前端技术学院(2)-JavaScript 基础</title>
-        <description>
-百度前端学院的第二次任务笔记，JavaScript 基础。主要有JavaScript的定义，数据类型，对象，数组，字符串，正则表达式，DOM，事件，BOM，Ajax 等知识。
-
-</description>
-        <pubDate>Thu, 23 Apr 2015 03:06:05 +0800</pubDate>
-        <link>http://localhost:4000/2015/04/23/baidu-ife-2-javascript/</link>
-        <guid isPermaLink="true">http://localhost:4000/2015/04/23/baidu-ife-2-javascript/</guid>
-        
-        <category>Baidu</category>
-        
-        <category>ife</category>
-        
-        <category>JavaScript</category>
-        
-        <category>正则</category>
-        
-        <category>Regular</category>
-        
-        
-        <category>JavaScript</category>
-        
-      </item>
-    
-      <item>
-        <title>百度Web前端技术学院(1)-HTML, CSS基础</title>
-        <description>
-百度前端学院的第一次任务笔记，HTML、CSS 基础。主要有 CSS 工作原理，选择器的使用，常用属性，行高属性，盒模型与定位，最后根据设计图实现4个页面。
-
-</description>
-        <pubDate>Thu, 16 Apr 2015 03:06:05 +0800</pubDate>
-        <link>http://localhost:4000/2015/04/16/baidu-ife-1/</link>
-        <guid isPermaLink="true">http://localhost:4000/2015/04/16/baidu-ife-1/</guid>
-        
-        <category>Baidu</category>
-        
-        <category>ife</category>
-        
-        <category>HTML</category>
-        
-        <category>CSS</category>
-        
-        <category>task</category>
-        
-        
-        <category>HTML</category>
-        
-        <category>CSS</category>
-        
-      </item>
-    
-      <item>
-        <title>同步一个 fork</title>
-        <description>
-fork 了别人的仓库后，原作者又更新了仓库，如何将自己的代码和原仓库保持一致？本文将给你解答。
-
-</description>
-        <pubDate>Sun, 12 Apr 2015 23:14:54 +0800</pubDate>
-        <link>http://localhost:4000/2015/04/12/Syncing-a-fork/</link>
-        <guid isPermaLink="true">http://localhost:4000/2015/04/12/Syncing-a-fork/</guid>
-        
-        <category>GitHub</category>
-        
-        <category>同步</category>
-        
-        <category>fork</category>
-        
-        
-        <category>GitHub</category>
-        
-      </item>
-    
-      <item>
-        <title>判断两个数组是否相似 (arraysSimilar)</title>
-        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#题目&quot; id=&quot;markdown-toc-题目&quot;&gt;题目&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;题目&quot;&gt;题目&lt;/h2&gt;
-
-题目来自 &lt;a href=&quot;http://imooc.com/code/5760&quot;&gt;慕课网 JavaScript 深入浅出 1-6 编程练习&lt;/a&gt;
-
-请在 index.html 文件中，编写 arraysSimilar 函数，实现判断传入的两个数组是否相似。具体需求：
-
-&lt;ol&gt;
-  &lt;li&gt;数组中的成员类型相同，顺序可以不同。例如 [1, true] 与 [false, 2] 是相似的。&lt;/li&gt;
-  &lt;li&gt;数组的长度一致。&lt;/li&gt;
-  &lt;li&gt;类型的判断范围，需要区分: String, Boolean, Number, undefined, null, 函数, 日期, window.&lt;/li&gt;
-&lt;/ol&gt;
-
-</description>
-        <pubDate>Mon, 06 Apr 2015 23:14:54 +0800</pubDate>
-        <link>http://localhost:4000/2015/04/06/arrays-similar/</link>
-        <guid isPermaLink="true">http://localhost:4000/2015/04/06/arrays-similar/</guid>
-        
-        <category>JavaScript</category>
-        
-        <category>Array</category>
-        
-        <category>算法</category>
-        
-        <category>慕课网</category>
-        
-        
-        <category>JavaScript</category>
+        <category>数据科学</category>
         
       </item>
     
