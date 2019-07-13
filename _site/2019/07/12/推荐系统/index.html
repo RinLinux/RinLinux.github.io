@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>推荐系统</title>
-    <meta name="description" content="协同过滤 collaborative filtering之所以称之为“协同”是因为该方法基于其他用户进行推荐。其工作流程如下：假设要完成的任务是推荐一本书给你，那么系统会在网站上搜索与你兴趣类似的其他用户，一旦找到这个用户，就看看这个用户喜欢的书，然后推荐给你。计算不同用户之间的距离：  曼哈顿距离 Manhat...">
+    <meta name="description" content="  协同过滤 collaborative filtering协同过滤 collaborative filtering之所以称之为“协同”是因为该方法基于其他用户进行推荐。其工作流程如下：假设要完成的任务是推荐一本书给你，那么系统会在网站上搜索与你兴趣类似的其他用户，一旦找到这个用户，就看看这个用户喜欢的书，然后推...">
 
     <link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon">
     <link rel="icon" href="/favicon.ico?" type="image/x-icon">
@@ -57,7 +57,7 @@
                         
                         <a href="/category/">
                         
-                            <i class="fa fa-th-list"></i>分类
+                            <i class="fa fa-th-list"></i>类别
                         </a>
                     </li>
                     
@@ -77,17 +77,7 @@
                         
                         <a href="/collection/">
                         
-                            <i class="fa fa-bookmark"></i>集合
-                        </a>
-                    </li>
-                    
-                
-                    
-                    <li>
-                        
-                        <a href="/demo/">
-                        
-                            <i class="fa fa-play"></i>样例
+                            <i class="fa fa-bookmark"></i>合集
                         </a>
                     </li>
                     
@@ -100,6 +90,12 @@
                             <i class="fa fa-heart"></i>关于
                         </a>
                     </li>
+                    
+                
+                    
+                
+                    
+                
                     
                 
                     
@@ -181,13 +177,20 @@
         </div>
         <hr>
         <article itemscope itemtype="http://schema.org/BlogPosting">
-        <h4 id="协同过滤-collaborative-filtering">协同过滤 collaborative filtering</h4>
+        <ul id="markdown-toc">
+  <li><a href="#协同过滤-collaborative-filtering" id="markdown-toc-协同过滤-collaborative-filtering">协同过滤 collaborative filtering</a>    <ul>
+      <li><a href="#计算不同用户之间的距离" id="markdown-toc-计算不同用户之间的距离">计算不同用户之间的距离</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="协同过滤-collaborative-filtering">协同过滤 collaborative filtering</h2>
 
 <p>之所以称之为“协同”是因为该方法基于其他用户进行推荐。其工作流程如下：</p>
 
 <p>假设要完成的任务是推荐一本书给你，那么系统会在网站上搜索与你兴趣类似的其他用户，一旦找到这个用户，就看看这个用户喜欢的书，然后推荐给你。</p>
 
-<h5 id="计算不同用户之间的距离">计算不同用户之间的距离：</h5>
+<h5 id="计算不同用户之间的距离">计算不同用户之间的距离</h5>
 
 <ol>
   <li>曼哈顿距离 Manhattan Distance</li>
@@ -218,31 +221,288 @@
   </li>
 </ol>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Minkowski Distance
-</span><span class="k">def</span> <span class="nf">manhattan</span><span class="p">(</span><span class="n">rating1</span><span class="p">,</span><span class="n">rating2</span><span class="p">,</span><span class="n">r</span><span class="p">):</span>
-  <span class="n">distance</span> <span class="o">=</span> <span class="mi">0</span>
-  <span class="n">commonrating</span> <span class="o">=</span> <span class="bp">False</span>
-  <span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">rating1</span><span class="p">:</span>
-    <span class="k">if</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">rating2</span><span class="p">:</span>
-      <span class="n">distance</span> <span class="o">+=</span> <span class="nb">pow</span><span class="p">(</span><span class="nb">abs</span><span class="p">(</span><span class="n">rating1</span><span class="p">[</span><span class="n">key</span><span class="p">]</span> <span class="o">-</span> <span class="n">rating2</span><span class="p">[</span><span class="n">key</span><span class="p">]),</span><span class="n">r</span><span class="p">)</span>
-      <span class="n">commonrating</span> <span class="o">=</span> <span class="bp">True</span>
-   <span class="k">if</span> <span class="n">commonrating</span><span class="p">:</span>
-    	<span class="k">return</span> <span class="nb">pow</span><span class="p">(</span><span class="n">distance</span><span class="p">,</span><span class="mi">1</span><span class="o">/</span><span class="n">r</span><span class="p">)</span>
-    <span class="k">else</span><span class="p">:</span>
-      <span class="k">return</span> <span class="mi">0</span>
-
-</code></pre></div></div>
-
 
         </article>
         <hr>
 
         
         
+            
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+        
+            
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+        
+            
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+        
+            
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+        
+            
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+        
+            
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+        
+            
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+        
+            
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+        
+            
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+        
+            
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+                
+                    
+                
+                    
+                
+            
+        
         
 
         <div class="post-recent">
     <div class="pre">
+        
+        <p><strong>上一篇</strong> <a href="/2015/06/12/JavaScript-this/">JavaScript 中的 this</a></p>
         
     </div>
     <div class="nex">
@@ -252,35 +512,11 @@
 </div>
 
 
-        <h2 id="comments">Comments</h2>
-        
+        <!-- <h2 id="comments">Comments</h2> -->
+        <!-- 
 
 
-<div id="disqus_thread"></div>
-<script>
-    /**
-     * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-     * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
-     */
-
-    var disqus_config = function() {
-        this.page.url = 'http://localhost:4000/2019/07/12/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/'; // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = 'http://localhost:4000/2019/07/12/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-
-    (function() { // DON'T EDIT BELOW THIS LINE
-        var d = document,
-            s = d.createElement('script');
-
-        s.src = '//Linzheng.disqus.com/embed.js';
-
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-
-
+ -->
 
 
     </div>
@@ -291,11 +527,11 @@
             <!-- Content -->
             <div class="side content">
                 <div>
-                    Content
+                    内容
                 </div>
                 <ul id="content-side" class="content-ul">
                     
-                    <li><a href="#comments">Comments</a></li>
+                    <!-- <li><a href="#comments">Comments</a></li> -->
                 </ul>
             </div>
             <!-- 其他div框放到这里 -->
@@ -326,11 +562,16 @@
              本站记录生物信息笔记 
         </p>
         <p class="contact">
-            Contact me at:         
+            Contact me at: 
+            <a href="https://github.com/Rinlinux" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>  
+            <a href="mailto:mixfruitszu@gmail.com" title="email"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>  
+            <a href="http://weibo.com/张小凡_2010" title="Weibo"><i class="fa fa-weibo" aria-hidden="true"></i></a>  
+            <a href="https://www.zhihu.com/people/张小凡" title="Zhihu"><i class="iconfont icon-daoruzhihu"></i></a>   
+            <a href="https://www.facebook.com/Kubomixfruit" title="Facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>    
         </p>
-        <!-- <p>
+        <p>
             本站总访问量<span id="busuanzi_value_site_pv"></span>次，本站访客数<span id="busuanzi_value_site_uv"></span>人次，本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-        </p> -->
+        </p>
         <p class="power">
             <span>
                 Site powered by <a href="https://jekyllrb.com/">Jekyll</a> & <a href="https://pages.github.com/">Github Pages</a>.

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 集合
+title: 合集
 permalink: /collection/
 icon: bookmark
 type: page
@@ -290,6 +290,4 @@ Syntax Theme: Atom Dark or One Dark
 
     首页的卡片翻动效果非常赞。
 
-## Comments
 
-{% include comments.html %}
