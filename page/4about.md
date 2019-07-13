@@ -15,14 +15,14 @@ type: page
 
 安静的时候沉迷于古典钢琴曲；
 
-始终坚信： **自律及自由**
+始终坚信： **自律即自由**
 
 ### 联系我
 
 如果你对博客的内容有疑问、纠错、补充，欢迎给我发邮件：mixfruitszu@gmail.com
 
 * GitHub：[RinLinux](https://github.com/RinLinux)
-* Email：[Linzheng](mixfruitszu@gmail.com)
+* Email：mixfruitszu@gmail.com
 
 ### 关于本站
 
