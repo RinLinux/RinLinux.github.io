@@ -3,10 +3,10 @@
   <channel>
     <title>数据之美</title>
     <description></description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 13 Jul 2019 18:02:32 +0800</pubDate>
-    <lastBuildDate>Sat, 13 Jul 2019 18:02:32 +0800</lastBuildDate>
+    <link>https://rinlinux.github.io/</link>
+    <atom:link href="https://rinlinux.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 13 Jul 2019 18:04:37 +0800</pubDate>
+    <lastBuildDate>Sat, 13 Jul 2019 18:04:37 +0800</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -17,8 +17,8 @@ ubuntu系统下mysql重置密码和修改密码操作
 
 </description>
         <pubDate>Sat, 13 Jul 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2019/07/13/mysql%E5%BF%98%E8%AE%B0%E5%AF%86%E7%A0%81/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/07/13/mysql%E5%BF%98%E8%AE%B0%E5%AF%86%E7%A0%81/</guid>
+        <link>https://rinlinux.github.io/2019/07/13/mysql%E5%BF%98%E8%AE%B0%E5%AF%86%E7%A0%81/</link>
+        <guid isPermaLink="true">https://rinlinux.github.io/2019/07/13/mysql%E5%BF%98%E8%AE%B0%E5%AF%86%E7%A0%81/</guid>
         
         <category>mysql</category>
         
@@ -64,8 +64,8 @@ ubuntu系统下mysql重置密码和修改密码操作
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 13 Jul 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2019/07/13/%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90-%E6%8F%8F%E8%BF%B0%E6%80%A7%E7%BB%9F%E8%AE%A1/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/07/13/%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90-%E6%8F%8F%E8%BF%B0%E6%80%A7%E7%BB%9F%E8%AE%A1/</guid>
+        <link>https://rinlinux.github.io/2019/07/13/%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90-%E6%8F%8F%E8%BF%B0%E6%80%A7%E7%BB%9F%E8%AE%A1/</link>
+        <guid isPermaLink="true">https://rinlinux.github.io/2019/07/13/%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90-%E6%8F%8F%E8%BF%B0%E6%80%A7%E7%BB%9F%E8%AE%A1/</guid>
         
         <category>统计</category>
         
@@ -81,8 +81,8 @@ fork 了别人的仓库后，原作者又更新了仓库，如何将自己的代
 
 </description>
         <pubDate>Sat, 13 Jul 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2019/07/13/%E5%90%8C%E6%AD%A5fork/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/07/13/%E5%90%8C%E6%AD%A5fork/</guid>
+        <link>https://rinlinux.github.io/2019/07/13/%E5%90%8C%E6%AD%A5fork/</link>
+        <guid isPermaLink="true">https://rinlinux.github.io/2019/07/13/%E5%90%8C%E6%AD%A5fork/</guid>
         
         <category>git</category>
         
@@ -107,8 +107,8 @@ fork 了别人的仓库后，原作者又更新了仓库，如何将自己的代
 
 </description>
         <pubDate>Fri, 12 Jul 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2019/07/12/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/07/12/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/</guid>
+        <link>https://rinlinux.github.io/2019/07/12/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/</link>
+        <guid isPermaLink="true">https://rinlinux.github.io/2019/07/12/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/</guid>
         
         <category>Python</category>
         
