@@ -32,12 +32,17 @@ type: page
 
 搜集的一些很不错的前辈，大佬的博客链接。
 
+* [糗世界](http://qiubio.com/)
 * [Wei Shen's Note](http://blog.shenwei.me/)
 * [SAM'S NOTE](https://qinqianshan.com/)
 * [生物信息博客](http://bioinformation.cn/)
 * [Guangchuang Yu](http://guangchuangyu.github.io/cn/)
 * [博耘生物](http://boyun.sh.cn/bio/)
 * [生信菜鸟团](http://www.bio-info-trainee.com/category/essay)
+* [牛牛龙](https://yulongniu.bionutshell.org/)
+* [Buskined bioinformatics](http://blog.runsheng.xyz/)
+* [Wenhu](http://bioinfostar.com/)
+* [生信笔记](http://www.bioinfo-scrounger.com)
 
 
 
