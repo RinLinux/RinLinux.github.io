@@ -11,7 +11,7 @@ type: page
 
 ### 关于我
 
-喜欢编程的文艺青年；
+喜欢编程的伪文艺青年；
 
 安静的时候沉迷于古典钢琴曲；
 
@@ -43,6 +43,8 @@ type: page
 * [Buskined bioinformatics](http://blog.runsheng.xyz/)
 * [Wenhu](http://bioinfostar.com/)
 * [生信笔记](http://www.bioinfo-scrounger.com)
+* [思考问题的熊](http://kaopubear.top/)
+* [Wenhu](http://bioinfostar.com/)
 
 
 
