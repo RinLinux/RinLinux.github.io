@@ -6,15 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Mysql忘记密码</title>
-    <meta name="description" content="  MysqlMysqlubuntu系统下mysql重置密码和修改密码操作">
+    <title>生物信息类博客文档大纲</title>
+    <meta name="description" content="  生物信息基础/Basic          生物信息数据库      双序列比对      生物信息基础/Basic生物信息数据库  核酸序列数据库  蛋白序列数据库  蛋白家族数据库双序列比对  基本概念  替换计分矩阵  双序列比对算法  数据库搜索  BLAST  比对的统计学显著性  参数的选择">
 
     <link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon">
     <link rel="icon" href="/favicon.ico?" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://at.alicdn.com/t/font_8v3czwksspqlg14i.css">
     <link rel="stylesheet" href="/css/main.css ">
-    <link rel="canonical" href="http://localhost:4000/2019/07/13/mysql%E5%BF%98%E8%AE%B0%E5%AF%86%E7%A0%81/">
+    <link rel="canonical" href="http://localhost:4000/2019/07/15/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E7%B1%BB%E5%8D%9A%E5%AE%A2%E5%A4%A7%E7%BA%B2/">
     <link rel="alternate" type="application/rss+xml" title="Bioinforstars" href="http://localhost:4000/feed.xml ">
 
 
@@ -117,11 +117,11 @@
         <!--  -->
         <div class="page clearfix" post>
     <div class="left">
-        <h1>Mysql忘记密码</h1>
+        <h1>生物信息类博客文档大纲</h1>
         <div class="label">
 
             <div class="label-card">
-                <i class="fa fa-calendar"></i>2019-07-13
+                <i class="fa fa-calendar"></i>2019-07-15
             </div>
 
             <div class="label-card">
@@ -141,7 +141,7 @@
   <i class="fa fa-th-list"></i>
   
     
-        <a href="/category/#软件工具" title="Category: 软件工具" rel="category">软件工具</a>
+        <a href="/category/#读书笔记" title="Category: 读书笔记" rel="category">读书笔记</a>
     
   
 
@@ -158,11 +158,8 @@
   <i class="fa fa-tags"></i>
   
     
-        <!--a href="/tag/#mysql" title="Tag: mysql" rel="tag">mysql</a-->
-        <a href="/tag/#mysql" title="Tag: mysql" rel="tag">mysql</a>&nbsp;
-    
-        <!--a href="/tag/#%E5%AF%86%E7%A0%81" title="Tag: 密码" rel="tag">密码</a-->
-        <a href="/tag/#密码" title="Tag: 密码" rel="tag">密码</a>
+        <!--a href="/tag/#%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF" title="Tag: 生物信息" rel="tag">生物信息</a-->
+        <a href="/tag/#生物信息" title="Tag: 生物信息" rel="tag">生物信息</a>
     
   
 
@@ -171,99 +168,118 @@
             </div>
 
             <div class="label-card">
-                <i class="fa fa-line-chart"></i>197
+                <i class="fa fa-line-chart"></i>140
             </div>
 
         </div>
         <hr>
         <article itemscope itemtype="http://schema.org/BlogPosting">
         <ul id="markdown-toc">
-  <li><a href="#mysql" id="markdown-toc-mysql">Mysql</a>    <ul>
-      <li><a href="#改密码前的操作" id="markdown-toc-改密码前的操作">改密码前的操作</a></li>
-      <li><a href="#修改密码" id="markdown-toc-修改密码">修改密码</a></li>
+  <li><a href="#生物信息基础basic" id="markdown-toc-生物信息基础basic">生物信息基础/Basic</a>    <ul>
+      <li><a href="#生物信息数据库" id="markdown-toc-生物信息数据库">生物信息数据库</a></li>
+      <li><a href="#双序列比对" id="markdown-toc-双序列比对">双序列比对</a></li>
+      <li><a href="#多序列比对" id="markdown-toc-多序列比对">多序列比对</a></li>
+      <li><a href="#序列特征分析" id="markdown-toc-序列特征分析">序列特征分析</a></li>
+      <li><a href="#分子进化分析" id="markdown-toc-分子进化分析">分子进化分析</a></li>
+      <li><a href="#表达序列分析" id="markdown-toc-表达序列分析">表达序列分析</a></li>
     </ul>
+  </li>
+  <li><a href="#基因组学genomics" id="markdown-toc-基因组学genomics">基因组学/Genomics</a>    <ul>
+      <li><a href="#全基因组测序分析概述" id="markdown-toc-全基因组测序分析概述">全基因组测序分析概述</a></li>
+      <li><a href="#全基因组测序分析流程" id="markdown-toc-全基因组测序分析流程">全基因组测序分析流程</a></li>
+    </ul>
+  </li>
+  <li><a href="#转录组学rna-seq" id="markdown-toc-转录组学rna-seq">转录组学/RNA-seq</a>    <ul>
+      <li><a href="#转录组测序概述" id="markdown-toc-转录组测序概述">转录组测序概述</a></li>
+      <li><a href="#转录组测序分析流程" id="markdown-toc-转录组测序分析流程">转录组测序分析流程</a></li>
+    </ul>
+  </li>
+  <li><a href="#蛋白组学proteomics" id="markdown-toc-蛋白组学proteomics">蛋白组学/Proteomics</a></li>
+  <li><a href="#可视化visualization" id="markdown-toc-可视化visualization">可视化/Visualization</a></li>
+  <li><a href="#生物信息学习资料" id="markdown-toc-生物信息学习资料">生物信息学习资料</a></li>
+</ul>
+
+<h3 id="生物信息基础basic">生物信息基础/Basic</h3>
+
+<h4 id="生物信息数据库">生物信息数据库</h4>
+
+<ul>
+  <li>核酸序列数据库</li>
+  <li>蛋白序列数据库</li>
+  <li>蛋白家族数据库</li>
+</ul>
+
+<h4 id="双序列比对">双序列比对</h4>
+
+<ul>
+  <li>基本概念</li>
+  <li>替换计分矩阵</li>
+  <li>双序列比对算法</li>
+  <li>数据库搜索</li>
+  <li>BLAST</li>
+  <li>比对的统计学显著性</li>
+  <li>参数的选择</li>
+</ul>
+
+<!--break-->
+
+<h4 id="多序列比对">多序列比对</h4>
+<ul>
+  <li>基本概念</li>
+  <li>相似性与距离、计分与罚分、替换矩阵</li>
+  <li>主要的比对方法与软件</li>
+  <li>局部比对，全局比对</li>
+  <li>全基因组比对</li>
+  <li>软件、参数与比对质量</li>
+</ul>
+
+<h4 id="序列特征分析">序列特征分析</h4>
+<ul>
+  <li>核酸序列特征分析</li>
+  <li>蛋白质序列特征分析</li>
+  <li>序列综合分析</li>
+</ul>
+
+<h4 id="分子进化分析">分子进化分析</h4>
+
+<h4 id="表达序列分析">表达序列分析</h4>
+
+<h3 id="基因组学genomics">基因组学/Genomics</h3>
+
+<h4 id="全基因组测序分析概述">全基因组测序分析概述</h4>
+<h4 id="全基因组测序分析流程">全基因组测序分析流程</h4>
+
+<h3 id="转录组学rna-seq">转录组学/RNA-seq</h3>
+<h4 id="转录组测序概述">转录组测序概述</h4>
+<h4 id="转录组测序分析流程">转录组测序分析流程</h4>
+
+<h3 id="蛋白组学proteomics">蛋白组学/Proteomics</h3>
+
+<h3 id="可视化visualization">可视化/Visualization</h3>
+
+<h3 id="生物信息学习资料">生物信息学习资料</h3>
+
+<ul>
+  <li>
+    <p>在线教程课程</p>
+  </li>
+  <li>
+    <p>生物信息论坛</p>
+  </li>
+  <li>
+    <p>生物信息博客</p>
+  </li>
+  <li>
+    <p>生物信息简书</p>
+  </li>
+  <li>
+    <p>生物信息工具</p>
+  </li>
+  <li>
+    <p>生物信息数据库</p>
   </li>
 </ul>
 
-<h2 id="mysql">Mysql</h2>
-
-<p>ubuntu系统下mysql重置密码和修改密码操作</p>
-
-<h3 id="改密码前的操作">改密码前的操作</h3>
-
-<ol>
-  <li>
-    <p>进入/etc/mysql/目录，并用root权限打开debian.cnf文件</p>
-
-    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> /etc/mysql
-<span class="nb">cd</span> /etc/mysql
-<span class="nb">sudo </span>vim debian.cnf
-</code></pre></div>    </div>
-  </li>
-  <li>
-    <p>使用这个文件中的用户名和密码进入mysql</p>
-
-    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> mysql <span class="nt">-u</span> debian-sys-maint <span class="nt">-p</span>
-</code></pre></div>    </div>
-  </li>
-  <li>
-    <p>然后输入文件中的password值，即可进入mysql。</p>
-  </li>
-  <li>选择mysql数据库（用户名和密码均存储在此数据库的user表中）
-    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> use mysql<span class="p">;</span>
-</code></pre></div>    </div>
-  </li>
-  <li>
-    <p>.显示user表中的列</p>
-
-    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> show fields from user<span class="p">;</span>
- describe user<span class="p">;</span>
-</code></pre></div>    </div>
-  </li>
-  <li>
-    <p>修改密码（修改密码为：123456）</p>
-
-    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> update mysql.user <span class="nb">set </span><span class="nv">authentication_string</span><span class="o">=</span>password<span class="o">(</span><span class="s1">'123456'</span><span class="o">)</span> where <span class="nv">user</span><span class="o">=</span><span class="s1">'root'</span>
-</code></pre></div>    </div>
-  </li>
-  <li>
-    <p>退出</p>
-
-    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nb">exit</span> 
-</code></pre></div>    </div>
-  </li>
-  <li>
-    <p>重启mysql</p>
-
-    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> service mysql restart
-</code></pre></div>    </div>
-  </li>
-</ol>
-
-<h3 id="修改密码">修改密码</h3>
-
-<ol>
-  <li>
-    <p>查看mysqladmin命令</p>
-
-    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nb">sudo </span>mysqladmin
-</code></pre></div>    </div>
-  </li>
-  <li>
-    <p>修改密码</p>
-
-    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nb">sudo </span>mysqladmin <span class="nt">-u</span> root <span class="nt">-p</span> password
-</code></pre></div>    </div>
-  </li>
-  <li>
-    <p>重启mysql服务</p>
-
-    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nb">sudo </span>service mysql restart
-</code></pre></div>    </div>
-  </li>
-</ol>
-
-<p><a href="https://blog.csdn.net/skh2015java/article/details/80156278">ubuntu系统下mysql重置密码和修改密码操作 - skh2015java的博客 - CSDN博客</a></p>
 
         </article>
         <hr>
@@ -275,17 +291,7 @@
                 
                     
                 
-                    
-                
             
-                
-                    
-                
-                    
-                
-            
-                
-                    
                 
                     
                 
@@ -293,11 +299,11 @@
                 
                     
                 
-                    
-                
             
                 
                     
+                
+            
                 
                     
                 
@@ -308,20 +314,7 @@
                 
                     
                 
-                    
-                
             
-        
-            
-            
-                
-                    
-                
-                    
-                
-            
-                
-                    
                 
                     
                 
@@ -332,20 +325,7 @@
                 
                     
                 
-                    
-                
             
-        
-            
-            
-                
-                    
-                
-                    
-                
-            
-                
-                    
                 
                     
                 
@@ -356,11 +336,25 @@
                 
                     
                 
+            
+        
+            
+            
+                
                     
                 
             
                 
                     
+                
+            
+        
+            
+            
+                
+                    
+                
+            
                 
                     
                 
@@ -371,13 +365,13 @@
         <div class="post-recent">
     <div class="pre">
         
-        <p><strong>上一篇</strong> <a href="/2019/07/13/%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90-%E6%8F%8F%E8%BF%B0%E6%80%A7%E7%BB%9F%E8%AE%A1/">统计分析：描述性统计</a></p>
+        <p><strong>上一篇</strong> <a href="/2019/07/15/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E5%8D%9A%E5%AE%A2%E5%A4%A7%E7%BA%B2/">数据科学博客大纲</a></p>
         
     </div>
     <div class="nex">
 
         
-        <p><strong>下一篇</strong> <a href="/2019/07/15/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E5%8D%9A%E5%AE%A2%E5%A4%A7%E7%BA%B2/">数据科学博客大纲</a></p>
+        <p><strong>下一篇</strong> <a href="/2019/07/15/%E7%BC%96%E7%A8%8B%E4%B9%8B%E9%AD%85%E5%8D%9A%E5%AE%A2%E5%A4%A7%E7%BA%B2/">编程之魅博客大纲</a></p>
         
     </div>
 </div>

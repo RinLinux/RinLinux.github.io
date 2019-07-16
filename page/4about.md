@@ -11,11 +11,11 @@ type: page
 
 ### 关于我
 
-喜欢编程的伪文艺青年；
+喜欢编程的伪文艺青年;
 
-安静的时候沉迷于古典钢琴曲；
+安静的时候沉迷于古典钢琴曲;
 
-始终坚信： **自律即自由**
+始终坚信: **自律即自由**
 
 ### 联系我
 
@@ -45,6 +45,7 @@ type: page
 * [生信笔记](http://www.bioinfo-scrounger.com)
 * [思考问题的熊](http://kaopubear.top/)
 * [Wenhu](http://bioinfostar.com/)
+* [hope](http://tiramisutes.github.io/)
 
 
 

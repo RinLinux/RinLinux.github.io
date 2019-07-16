@@ -1,13 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>数据之美</title>
+    <title>Bioinforstars</title>
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 14 Jul 2019 16:20:44 +0800</pubDate>
-    <lastBuildDate>Sun, 14 Jul 2019 16:20:44 +0800</lastBuildDate>
+    <pubDate>Tue, 16 Jul 2019 09:41:08 +0800</pubDate>
+    <lastBuildDate>Tue, 16 Jul 2019 09:41:08 +0800</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>编程之魅博客大纲</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#python语言&quot; id=&quot;markdown-toc-python语言&quot;&gt;Python语言&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#基础知识&quot; id=&quot;markdown-toc-基础知识&quot;&gt;基础知识&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#常用标准库&quot; id=&quot;markdown-toc-常用标准库&quot;&gt;常用标准库&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;python语言&quot;&gt;Python语言&lt;/h3&gt;
+&lt;h4 id=&quot;基础知识&quot;&gt;基础知识&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;数据类型&lt;/li&gt;
+  &lt;li&gt;控制流程&lt;/li&gt;
+  &lt;li&gt;函数与模块&lt;/li&gt;
+  &lt;li&gt;面向对象编程&lt;/li&gt;
+  &lt;li&gt;异常处理&lt;/li&gt;
+  &lt;li&gt;测试与调试&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;常用标准库&quot;&gt;常用标准库&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;正则表达式&lt;/li&gt;
+  &lt;li&gt;日期与时间&lt;/li&gt;
+  &lt;li&gt;系统与文件&lt;/li&gt;
+  &lt;li&gt;进程与线程&lt;/li&gt;
+  &lt;li&gt;数据库操作&lt;/li&gt;
+  &lt;li&gt;数据结构&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 15 Jul 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/07/15/%E7%BC%96%E7%A8%8B%E4%B9%8B%E9%AD%85%E5%8D%9A%E5%AE%A2%E5%A4%A7%E7%BA%B2/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/07/15/%E7%BC%96%E7%A8%8B%E4%B9%8B%E9%AD%85%E5%8D%9A%E5%AE%A2%E5%A4%A7%E7%BA%B2/</guid>
+        
+        <category>编程</category>
+        
+        <category>Python</category>
+        
+        <category>R</category>
+        
+        <category>Perl</category>
+        
+        <category>Shell</category>
+        
+        
+        <category>读书笔记</category>
+        
+      </item>
+    
+      <item>
+        <title>生物信息类博客文档大纲</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#生物信息基础basic&quot; id=&quot;markdown-toc-生物信息基础basic&quot;&gt;生物信息基础/Basic&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#生物信息数据库&quot; id=&quot;markdown-toc-生物信息数据库&quot;&gt;生物信息数据库&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#双序列比对&quot; id=&quot;markdown-toc-双序列比对&quot;&gt;双序列比对&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;生物信息基础basic&quot;&gt;生物信息基础/Basic&lt;/h3&gt;
+
+&lt;h4 id=&quot;生物信息数据库&quot;&gt;生物信息数据库&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;核酸序列数据库&lt;/li&gt;
+  &lt;li&gt;蛋白序列数据库&lt;/li&gt;
+  &lt;li&gt;蛋白家族数据库&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;双序列比对&quot;&gt;双序列比对&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;基本概念&lt;/li&gt;
+  &lt;li&gt;替换计分矩阵&lt;/li&gt;
+  &lt;li&gt;双序列比对算法&lt;/li&gt;
+  &lt;li&gt;数据库搜索&lt;/li&gt;
+  &lt;li&gt;BLAST&lt;/li&gt;
+  &lt;li&gt;比对的统计学显著性&lt;/li&gt;
+  &lt;li&gt;参数的选择&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 15 Jul 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/07/15/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E7%B1%BB%E5%8D%9A%E5%AE%A2%E5%A4%A7%E7%BA%B2/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/07/15/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E7%B1%BB%E5%8D%9A%E5%AE%A2%E5%A4%A7%E7%BA%B2/</guid>
+        
+        <category>生物信息</category>
+        
+        
+        <category>读书笔记</category>
+        
+      </item>
+    
+      <item>
+        <title>数据科学博客大纲</title>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#数据准备&quot; id=&quot;markdown-toc-数据准备&quot;&gt;数据准备&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#数据库&quot; id=&quot;markdown-toc-数据库&quot;&gt;数据库&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#爬虫&quot; id=&quot;markdown-toc-爬虫&quot;&gt;爬虫&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#统计基础&quot; id=&quot;markdown-toc-统计基础&quot;&gt;统计基础&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;数据准备&quot;&gt;数据准备&lt;/h3&gt;
+
+&lt;h4 id=&quot;数据库&quot;&gt;数据库&lt;/h4&gt;
+&lt;h4 id=&quot;爬虫&quot;&gt;爬虫&lt;/h4&gt;
+
+&lt;h3 id=&quot;统计基础&quot;&gt;统计基础&lt;/h3&gt;
+
+</description>
+        <pubDate>Mon, 15 Jul 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/07/15/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E5%8D%9A%E5%AE%A2%E5%A4%A7%E7%BA%B2/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/07/15/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E5%8D%9A%E5%AE%A2%E5%A4%A7%E7%BA%B2/</guid>
+        
+        <category>数据分析</category>
+        
+        <category>统计</category>
+        
+        
+        <category>读书笔记</category>
+        
+      </item>
     
       <item>
         <title>Mysql忘记密码</title>

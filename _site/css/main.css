@@ -62,15 +62,15 @@ h3 {
   margin: 20px 0 20px; }
 
 h4 {
-  font-size: 19px;
+  font-size: 15px;
   margin: 20px 0 10px; }
 
 h5 {
-  font-size: 17px;
+  font-size: 10px;
   margin: 15px 0 10px; }
 
 h6 {
-  font-size: 16px;
+  font-size: 8px;
   margin: 10px 0 5px; }
 
 blockquote {
@@ -275,7 +275,7 @@ header {
     .page[post] .left h3 {
       font-size: 20px; }
     .page[post] .left h4 {
-      font-size: 18px; }
+      font-size: 15px; }
     .page[post] .left h5 {
       font-size: 16px; }
     .page[post] .left h6 {
@@ -485,11 +485,11 @@ pre {
     font-size: 13px;
     color: #d1d1c9;
     border: none;
-    background-color: #272822; }
+    background-color: #696969; }
 
 .highlight {
   border-radius: 3px;
-  background: #272822;
+  background: #696969;
   /* Comment */
   /* Error */
   /* Keyword */
@@ -708,9 +708,9 @@ pre {
     .page[index] .left > ul li .excerpt h2 {
       font-size: 24px; }
     .page[index] .left > ul li .excerpt h3 {
-      font-size: 22px; }
+      font-size: 25px; }
     .page[index] .left > ul li .excerpt h4 {
-      font-size: 20px; }
+      font-size: 15px; }
     .page[index] .left > ul li .read-all {
       text-align: right;
       font-size: 14px; }
